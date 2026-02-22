@@ -71,7 +71,7 @@
     </header>
 
     <main>
-      <section id="hero-section" class="section-header">
+      <section id="hero-section" class="section-header centered">
         <div class="hero-section_container container">
           <h1>Mishal Hasan</h1>
           <p>
@@ -157,7 +157,7 @@
         <div class="projects-section_container container">
           <h2>Projects</h2>
 
-          <article class="project-card">
+          <article class="project-card card">
             <h3>Eira — Personal Health Companion <span>(In Progress)</span></h3>
 
             <p>
@@ -184,7 +184,7 @@
 
             <div class="project-links">
               <a
-                class="bttn"
+                class="bttn live-bttn"
                 href="https://eira-phi.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -192,7 +192,7 @@
                 Live Demo
               </a>
               <a
-                class="bttn"
+                class="bttn github-bttn"
                 href="https://github.com/mishalhasan/eira"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -204,20 +204,22 @@
         </div>
       </section>
 
-      <section id="contact-section" class="section-header">
+      <section id="contact-section" class="section-header centered">
         <div class="contact-section_container container">
-          <h2>Let's Connect.</h2>
-          <h3>
-            email:
-            <a href="mailto:mishalhasan2198@gmail.com">
-              mishalhasan2198@gmail.com
-            </a>
-          </h3>
-          <h3>
-            <a href="https://www.linkedin.com/in/mishal-hasan/"> LinkedIn</a>
-            /
-            <a href="https://github.com/mishalhasan/"> Github </a>
-          </h3>
+          <div class="contact-card card">
+            <h2>Let's Connect.</h2>
+            <h3>
+              email:
+              <a href="mailto:mishalhasan2198@gmail.com">
+                mishalhasan2198@gmail.com
+              </a>
+            </h3>
+            <h3>
+              <a href="https://www.linkedin.com/in/mishal-hasan/"> LinkedIn</a>
+              /
+              <a href="https://github.com/mishalhasan/"> Github </a>
+            </h3>
+          </div>
         </div>
       </section>
     </main>
@@ -229,17 +231,17 @@
     </footer>
 
     <script>
-      const menuToggle = document.querySelector(".hamburger");
-      const body = document.body;
-      const menuClose = document.querySelector(".page-links .back-button");
+      const menuToggle = document.querySelector(".hamburger")
+      const body = document.body
+      const menuClose = document.querySelector(".page-links .back-button")
 
       menuToggle.addEventListener("click", () => {
-        body.classList.toggle("menu-open");
-      });
+        body.classList.toggle("menu-open")
+      })
 
       menuClose.addEventListener("click", () => {
-        body.classList.remove("menu-open");
-      });
+        body.classList.remove("menu-open")
+      })
     </script>
   </body>
 </html>
