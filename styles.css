@@ -61,7 +61,7 @@ select {
 button {
   background: none;
   border: none;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 body {
@@ -95,7 +95,7 @@ p {
 /*** Layout & Sections ***/
 
 .container {
-  padding-inline: clamp(1.5rem, 2%, 2.5rem);
+  /* padding-inline: clamp(1.5rem, 2%, 2.5rem); */
   padding-inline: clamp(2rem, 2%, 3rem);
   margin-inline: clamp(1rem, 2vw, 2rem);
 }
@@ -270,9 +270,9 @@ body.menu-open {
 
 /*Implements max-width & centers body*/
 @media (min-width: 1440px) {
+  /*footer in main -> removed on footer*/
   header,
-  main,
-  footer {
+  main {
     max-width: 1440px;
     margin: 0 auto;
   }
@@ -339,7 +339,7 @@ body.menu-open {
 .hero-section_container .hero-bttn:hover {
   color: #fffbff;
   background-color: #92817a;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .hero-section_container h1 {
@@ -438,8 +438,8 @@ body.menu-open {
   }
 
   .skills-exp_container .skills-exp_card.card-1 {
-    padding-left: 0;
-    padding-right: 0;
+    /* padding-left: 0;
+    padding-right: 0; */
   }
 }
 
@@ -451,7 +451,7 @@ body.menu-open {
 }
 
 .skills-exp_card h2 {
-  margin-block-end: clamp(1.5rem, 3vw, 2rem);
+  /* margin-block-end: clamp(1.5rem, 3vw, 2rem); */
 }
 
 .skills-exp_card h3 {
@@ -488,7 +488,7 @@ body.menu-open {
   background-color: #362417;
   /* background-color: #92817a; */
   /* color: #fff2d7; */
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .top-skills-wrapper {
@@ -579,7 +579,8 @@ body.menu-open {
 }
 
 .skill-icon img {
-  width: clamp(36px, 8vw, 56px);
+  /* width: clamp(36px, 8vw, 56px); */
+  width: clamp(2.25rem, 8vw, 3.5rem);
   /* height: auto;  */
 
   /* width: 23%; */
@@ -659,10 +660,10 @@ body.menu-open {
 }
 
 .cred-point p {
-  margin: 0;
+  /* margin: 0;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
   color: #92817a;
 }
 
@@ -684,8 +685,7 @@ body.menu-open {
   background: #f1dabf;
   color: #362417;
   border: 1px solid rgba(146, 129, 122, 0.6);
-
-  /* box-shadow: 0 2px 6px rgba(146, 129, 122, 0.15); */
+  box-shadow: 0 2px 6px rgba(146, 129, 122, 0.15);
 }
 
 .status-label.winner {
@@ -769,7 +769,7 @@ body.menu-open {
 .project-links .bttn:hover {
   color: #fffbff;
   background-color: #362417;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .project-links a:nth-child(1) {
